@@ -16,8 +16,7 @@
 }
 
 .blog-post:first-of-type > hr{
-    color: red;
-    size: 3px;
+    border-color: red;
 }
 
 .nav span:nth-of-type(even){
@@ -47,4 +46,5 @@ footer + a{
 footer a:nth-of-type(2){
     color: red;
 }
+
 

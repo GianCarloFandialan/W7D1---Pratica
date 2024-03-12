@@ -1,0 +1,50 @@
+.jumbotron h1{
+    color: red;
+}
+
+.nav span{
+    color: green;
+    font-weight: bold;
+}
+
+.lead > a{
+    color: yellow;
+}
+
+.blog-post:first-of-type{
+    color: teal;
+}
+
+.blog-post:first-of-type > hr{
+    color: red;
+    size: 3px;
+}
+
+.nav span:nth-of-type(even){
+    color: yellow;
+}
+
+.blog-sidebar div:nth-of-type(2) ol li a{
+    color: yellow;
+}
+
+.blog-post:nth-of-type(2) .blog-post-meta a{
+    color: red;
+}
+
+.blog-post:nth-of-type(3) li:nth-of-type(2){
+    color: red;
+}
+
+footer + a{
+    color: red;
+}
+
+.blog-pagination a:last-of-type{
+    color: red;
+}
+
+footer a:nth-of-type(2){
+    color: red;
+}
+

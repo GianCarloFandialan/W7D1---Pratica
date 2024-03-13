@@ -10,25 +10,19 @@ window.onload = function() {
 
 // EXTRA Crea con JavaScript la funzionalità per rimuovere il corrispondente elemento padre dal DOM cliccando sul link "Continua a leggere".
 
-function removeParent() {
-    let links = document.querySelectorAll("a");
-    for (const link of links) {
-        if (link.innerHTML == "Continua a leggere") {
-        link.addEventListener("click", () => link.parentElement.remove())
-        }
+let links = document.querySelectorAll("a");
+for (const link of links) {
+    if (link.innerHTML == "Continua a leggere") {
+    link.addEventListener("click", () => link.parentElement.remove())
     }
 }
 
-removeParent()
 
 // EXTRA Crea con JavaScript la funzionalità per creare un alert col nome dell'autore ogni volta che il cursore passa sopra l'autore del post.
 
-function authorAlert() {
-    let author = document.querySelectorAll(".blog-post-meta a");
+let author = document.querySelectorAll(".blog-post-meta a");
 
-    for (const link of author) {
+for (const link of author) {
     link.addEventListener("mouseover", () => alert(link.innerHTML));
-    }
 }
 
-authorAlert()

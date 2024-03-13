@@ -19,8 +19,8 @@
     border-color: red;
 }
 
-.nav span:nth-of-type(even){
-    color: yellow;
+.blog-pagination a:nth-of-type(even){
+    background-color: yellow;
 }
 
 .blog-sidebar div:nth-of-type(2) ol li a{
